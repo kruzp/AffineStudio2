@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- a unit square under a shear: the transform the studio is named for -->
+  <path d="M11 4h16l-6 24H5z" fill="#A65E22"/>
+</svg>

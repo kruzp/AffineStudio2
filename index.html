@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Affine Studio — hand-built websites</title>
+<meta name="description" content="Affine Studio builds hand-written websites for moving companies, contractors, surveyors and trades. Fixed price from $800. Ames, Iowa.">
+<meta name="theme-color" content="#F4F2ED" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#08090A" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Affine Studio — hand-built websites">
+<meta property="og:description" content="Websites that actually work. Hand-written, fixed price from $800, one project at a time. Ames, Iowa.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/affine.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=Martian+Mono:wdth,wght@75..112.5,100..800&display=swap">
+</head>
+<body>
+
+
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Menu">
+  <button class="close" type="button" id="closeMenu">Close</button>
+  <nav>
+    <a href="#work" data-nav>Work <i>02 builds</i></a>
+    <a href="#method" data-nav>How it works <i>04 steps</i></a>
+    <a href="#pricing" data-nav>Pricing <i>from $800</i></a>
+    <a href="#studio" data-nav>Studio <i>Ames, IA</i></a>
+    <a href="#contact" data-nav>Contact <i>now booking</i></a>
+  </nav>
+</div>
+
+<div class="wrap">
+  <header class="mast">
+    <p class="mark">Affine<span>.</span></p>
+    <div class="mast-r">
+      <span class="stamp">Design &amp; engineering · Ames, IA · <b>Now booking</b></span>
+      <div class="toggle" role="group" aria-label="Colour theme">
+        <button type="button" id="tLight" aria-pressed="true">Light</button>
+        <button type="button" id="tDark" aria-pressed="false">Dark</button>
+      </div>
+      <button class="menu-btn" type="button" id="openMenu">Menu</button>
+    </div>
+  </header>
+
+  <section class="open">
+    <div class="field"><canvas id="cvField" aria-hidden="true"></canvas></div>
+    <p class="kicker"><span>Hand-written websites</span><span>No templates · no shortcuts</span><span><b>One at a time</b></span></p>
+    <h1>
+      <span class="a">Websites that</span>
+      <span class="b">actually work.</span>
+      <span class="c">That's it.</span>
+    </h1>
+    <div class="said">
+      <p>You get a real site built by a designer and engineer working together. Fast. Clear. Built to convert. And it gets better in year two instead of rotting like most sites do. We work on one project at a time so you get our full attention.</p>
+      <a class="enter" href="#work">See the work <i></i></a>
+      <div class="mtx" id="mtx"></div>
+    </div>
+  </section>
+</div>
+
+<section class="chapter">
+  <div class="wrap chap">
+    <div class="steps" id="steps">
+      <div class="step on">
+        <span class="n">01 / RESEARCH</span>
+        <h2>Start with <b>structure</b>.</h2>
+        <p>How people find you. Where they click. What stops them. We map the whole journey before we design anything.</p>
+      </div>
+      <div class="step">
+        <span class="n">02 / DESIGN</span>
+        <h2>Build a <b>system</b>.</h2>
+        <p>Type, color, space, motion. One set of rules applied everywhere. Not a hundred custom layouts — one grid that holds everything.</p>
+      </div>
+      <div class="step">
+        <span class="n">03 / BUILD</span>
+        <h2>Write it <b>by hand</b>.</h2>
+        <p>No page builder. No bloat. Code you understand and can update. Fast to load. Works on every device.</p>
+      </div>
+      <div class="step">
+        <span class="n">04 / LAUNCH</span>
+        <h2>Then you <b>own it</b>.</h2>
+        <p>The whole site is yours. Source code included. We stay on it if you want. Or we walk away — it's built to last.</p>
+      </div>
+    </div>
+    <div class="sticky">
+      <div class="plateC">
+        <canvas id="cvChap" aria-label="Circuit routing travelling and resolving into the lines of a page"></canvas>
+        <span class="cap">Fig. 01 — <b id="chapState">substrate</b></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <section class="blk" id="work">
+    <p class="lbl">Selected work<span>Hover a plate to scroll the live page inside it</span></p>
+    <div class="plates">
+
+      <article>
+        <div class="plate-head"><span>01</span><span><b>Live</b></span></div>
+        <div class="frame" tabindex="0" style="--pan:-24%">
+          <div class="site s-lj">
+            <div class="m-nav"><b>LANE &amp; JAXON</b><span style="opacity:.62">Why us · Services · Process · Contact</span></div>
+            <div class="m-hero">
+              <p class="m-h">Moving day,<br><i>handled.</i></p>
+              <p class="m-p" style="font-size:.92vw;max-width:34ch">Residential, apartment and student moves with flat-rate pricing, punctual crews, and a promise that every box, frame and family heirloom arrives the way it left.</p>
+              <span class="m-btn">Get your free quote</span>
+            </div>
+            <div class="m-row">
+              <div class="stat"><b>1,400+</b><span>Moves completed</span></div>
+              <div class="stat"><b>4.9 / 5</b><span>Average rating</span></div>
+              <div class="stat"><b>Insured</b><span>Licensed &amp; fully</span></div>
+            </div>
+            <div class="svc">
+              <span>Residential moves</span><span>Apartment moves</span><span>Student moves</span>
+              <span>Local moves</span><span>Furniture moving</span><span>Packing assistance</span>
+            </div>
+          </div>
+        </div>
+        <div class="plate-foot">
+          <h4>Lane &amp; Jaxon</h4>
+          <span class="m">Moving company · <a href="https://kruzp.github.io/LaneAndJaxonMovingCo/" target="_blank" rel="noopener">Visit ↗</a></span>
+        </div>
+      </article>
+
+      <article>
+        <div class="plate-head"><span>02</span><span><b>Live</b></span></div>
+        <div class="frame" tabindex="0" style="--pan:-24%">
+          <div class="site s-fa">
+            <div class="m-nav"><b>FLOWSTATE</b><span style="opacity:.62">How it works · Packages · Part 107 · Contact</span></div>
+            <div class="m-hero">
+              <p class="m-h">Living <span class="sig">Reports</span></p>
+              <p class="m-p" style="font-size:.92vw;max-width:36ch">Every draw, backed by the site itself. We fly your job site on an RTK-mapped schedule and turn each capture into a shareable link — orthomosaic, progress timeline, cut/fill volumes, one-click PDF for the pay application.</p>
+              <span class="m-btn">Book a capture</span>
+            </div>
+            <div class="m-row">
+              <div class="pk"><b>Flight Report</b><span class="pr">$650</span><p>Single capture, one-time, no commitment.</p></div>
+              <div class="pk feat"><b>Draw Ready</b><span class="pr">$500/mo</span><p>Monthly recurring, three-month minimum.</p></div>
+              <div class="pk"><b>Site Intelligence</b><span class="pr">$600/mo</span><p>Per site. Portfolio coverage, three-site minimum.</p></div>
+            </div>
+            <div class="pipe"><span>CAPTURE</span><span>PROCESS</span><span>REVIEW</span><span>DELIVER</span><span>No logins, no seats</span></div>
+          </div>
+        </div>
+        <div class="plate-foot">
+          <h4>Flowstate Aerial</h4>
+          <span class="m">Drone survey · <a href="https://flowstateaerial.com/" target="_blank" rel="noopener">Visit ↗</a></span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="blk" id="method">
+    <p class="lbl">How it works<span>Four steps · six to fourteen weeks</span></p>
+    <p class="claim">A website takes four steps to build right. We do all four.</p>
+    <div class="flow">
+      <div class="legs">
+        <article class="leg">
+          <span class="pad" aria-hidden="true"></span>
+          <span class="wk">Week 1</span>
+          <h4>Research</h4>
+          <p>How customers find you, where they click, and what stops them.</p>
+        </article>
+        <article class="leg">
+          <span class="pad" aria-hidden="true"></span>
+          <span class="wk">Week 2–3</span>
+          <h4>Design</h4>
+          <p>Type, color, grid, motion. One system, applied everywhere.</p>
+        </article>
+        <article class="leg">
+          <span class="pad" aria-hidden="true"></span>
+          <span class="wk">Week 4–7</span>
+          <h4>Build</h4>
+          <p>Written by hand. No page builders. Tested on real phones.</p>
+        </article>
+        <article class="leg">
+          <span class="pad" aria-hidden="true"></span>
+          <span class="wk">Ongoing</span>
+          <h4>Care</h4>
+          <p>You own the site and the code. We stay on it if you want us to.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk" id="pricing">
+    <p class="lbl">Pricing<span>Fixed price · one build · optional monthly care</span></p>
+    <p class="claim">Pick the package that fits your business. Price is fixed, no surprises.</p>
+
+    <div class="tiers">
+      <article class="tier">
+        <div class="top"><h3 class="nm">Starter</h3></div>
+        <div class="price">$800</div>
+        <p class="sum">A real website. Fast, custom, yours forever.</p>
+        <ul>
+          <li>Up to 3 pages</li>
+          <li>Mobile-friendly</li>
+          <li>Contact form</li>
+          <li>Hosted on your domain</li>
+          <li>Source code included</li>
+        </ul>
+        <a class="go" href="#contact" data-pick="Starter — $800">Get started</a>
+      </article>
+
+      <article class="tier feat">
+        <div class="top"><h3 class="nm">Professional</h3><span class="badge">Most chosen</span></div>
+        <div class="price">$1,200</div>
+        <p class="sum">Everything in Starter, plus you can update content yourself and one custom feature built for your business.</p>
+        <ul>
+          <li>Up to 6 pages</li>
+          <li>Content editor — change text and photos yourself</li>
+          <li>Booking or quote forms</li>
+          <li>Analytics built in</li>
+          <li>Source code included</li>
+        </ul>
+        <a class="go" href="#contact" data-pick="Professional — $1,200">Get started</a>
+      </article>
+
+      <article class="tier">
+        <div class="top"><h3 class="nm">Custom</h3></div>
+        <div class="price">$1,800</div>
+        <p class="sum">Unlimited pages. A full system built for exactly how your business works.</p>
+        <ul>
+          <li>Unlimited pages and sections</li>
+          <li>Client portal or payment system</li>
+          <li>Connect to your existing tools</li>
+          <li>Advanced features as needed</li>
+          <li>Built to grow with you</li>
+        </ul>
+        <a class="go" href="#contact" data-pick="Custom — $1,800">Get started</a>
+      </article>
+    </div>
+
+    <div class="retainer">
+      <div>
+        <h4>Ongoing care</h4>
+        <div class="price">$149<em>/ month</em></div>
+        <p>Optional with any package. Same price for all three tiers. Cancel anytime. Your site stays yours.</p>
+      </div>
+      <div>
+        <div class="inc">
+          <div>
+            <b>Updates &amp; changes</b>
+            <p>New photos, copy edits, hours, pricing, promotions. Just send it — we make it live.</p>
+          </div>
+          <div>
+            <b>Performance monitoring</b>
+            <p>We watch speed, uptime, and mobile. You don't have to worry.</p>
+          </div>
+          <div>
+            <b>Analytics</b>
+            <p>See where visitors come from, what pages they read, where they leave.</p>
+          </div>
+          <div>
+            <b>Security &amp; backups</b>
+            <p>Patches, backups, DNS — your site stays secure and running.</p>
+          </div>
+          <div class="soon">
+            <b>Client dashboard</b>
+            <p>One place to see traffic and leads. Coming soon — free for retainer clients.</p>
+          </div>
+          <div>
+            <b>Growth suggestions</b>
+            <p>Based on real data, we suggest what to improve next. No guessing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk" id="studio">
+    <p class="lbl">Studio<span>Ames, Iowa · working remote across the Midwest</span></p>
+    <div class="studio">
+      <div class="body">
+        <p class="claim" style="margin-bottom:26px">Built for real businesses.</p>
+        <p>We build sites for moving companies, contractors, surveyors, and trades. Businesses where the website is how customers find you and decide to hire you.</p>
+        <p><b>No account managers, no handoffs, no templates.</b> One person designs it and codes it and answers your email. That's why we only take one project at a time — we actually care about the outcome.</p>
+        <p>Other studios would charge $2,500+ for what we build for $800–$1,800. Most sites decay after year one. Ours improve because we stick around.</p>
+      </div>
+      <div class="byline">
+        <p class="who">Kruz Pierce</p>
+        <p class="role">Founder · designer &amp; engineer</p>
+        <dl>
+          <dt>Location</dt><dd>Ames, Iowa</dd>
+          <dt>Also</dt><dd>Founded Flowstate Aerial (drone surveys). That's why the survey work shown isn't made up.</dd>
+          <dt>Uses</dt><dd>Hand-written HTML, CSS, TypeScript. You own the code.</dd>
+          <dt>Capacity</dt><dd>One project at a time · now booking</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <p class="lbl">Lab<span>Side projects that might become products</span></p>
+    <div class="lab">
+      <article>
+        <div class="tg"><span>Graphics</span><span>Canvas</span></div>
+        <h4>Circuit animation</h4>
+        <p>The routing at the top of this page. Built from scratch, about 9kb, no libraries. Shows what's possible when you build custom instead of using frameworks.</p>
+        <div class="st">Live · shipping</div>
+      </article>
+      <article>
+        <div class="tg"><span>Mobile</span><span>PWA</span></div>
+        <h4>Workflow app</h4>
+        <p>For our drone survey work. Capture, process, review, deliver — all on one screen. Works offline. Means less time back at the office.</p>
+        <div class="st">Building now</div>
+      </article>
+      <article>
+        <div class="tg"><span>Vision</span><span>Markers</span></div>
+        <h4>Auto-detecting targets</h4>
+        <p>Machine-readable markers for surveys. Instead of hand-painting ground control points, the software finds them automatically. Saves hours per project.</p>
+        <div class="st">Testing</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Let's build<br><em>your website right.</em></h2>
+    <p class="picked" id="pickRow" hidden>Package selected — <b id="pickName"></b>. The email below is already addressed; send it and I'll come back with next steps and a start date.</p>
+    <div class="cgrid">
+      <div><b>Email</b><a href="mailto:studio@affine.studio" id="mailLink">studio@affine.studio</a></div>
+      <div><b>Based in</b><span>Ames, Iowa · work remote</span></div>
+      <div><b>Availability</b><span>Now booking · one at a time</span></div>
+    </div>
+    <div class="cfoot">
+      <span>Affine Studio · Ames, IA · Αφινε</span>
+      <span>Fixed price · built by hand · yours to keep</span>
+    </div>
+  </section>
+</div>
+
+
+<script src="js/affine.js"></script>
+
+</body>
+</html>
